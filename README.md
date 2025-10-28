@@ -11,15 +11,11 @@ create_mapper.py – Builds token and word mappings from text data for preproces
 Data and Artifacts
 
 vocab.json, tokenizer.json, word_to_token_mapping.json: Store word-token mappings.
-
 dataset.csv, train_dataset.csv, validation_dataset.csv: Contain training and validation data.
-
 rnn_model.pth: Trained RNN weights.
 
 Workflow
 
 Run create_mapper.py to generate mappings.
-
 Train the model with training_model.py.
-
 Deploy and interact with the model via Discord using main.py.
